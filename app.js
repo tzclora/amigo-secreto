@@ -5,7 +5,7 @@ function agregarAmigo() {
   let nombreAmigo = document.getElementById("amigo").value;
 
   if (nombreAmigo.trim() === "") {
-    alert("Debe ingresar un nombre por favor");
+    alert("Debe ingresar un nombre por favor.");
   } else {
     amigos.push(nombreAmigo);
     document.querySelector("#amigo").value = "";
